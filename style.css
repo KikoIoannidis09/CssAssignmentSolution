@@ -1,0 +1,238 @@
+   html {
+      height: 100%;
+      width: 100%;
+    }
+
+   @media screen and (min-width: 992px) {
+
+    h1 {
+      text-align: center;
+      font-size: 300%;
+      font-family: Arial, sans-serif;
+    }
+
+    .paragraph-container {
+      position: relative;
+      display: inline-block;
+      width: 33%;
+      vertical-align: top;
+     margin-top: 3%;
+      float: left;
+    margin-left: 0.3%;
+    box-size: 30%;
+    }
+
+    .paragraph-title {
+      position: absolute;
+      background-color: lightblue;
+      padding: 5px 10px;
+      font-size: 175%;
+       top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+      border: 1px solid;
+    }
+
+       .paragraph-title2 {
+      position: absolute;
+      background-color: pink;
+      padding: 5px 10px;
+      font-size: 175%;
+        top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+      border: 1px solid;
+    }
+
+       .paragraph-title3 {
+      position: absolute;
+      background-color: aqua;
+      padding: 5px 10px;
+      font-size: 175%;
+        top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+      border: 1px solid;
+    }
+
+    .paragraph-content {
+      background-color: beige;
+      padding: 50px 10px 10px 10px;
+      border: 2px solid;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px){
+    h1 {
+      text-align: center;
+      font-size: 300%;
+      font-family: Arial, sans-serif;
+    }
+
+    .pc1 {
+      position: relative;
+      display: inline-block;
+      width: 47%;
+      vertical-align: top;
+     margin-top: 3%;
+      float: left;
+    margin-left: 0.3%
+    }
+
+       .pc2 {
+      position: relative;
+      display: inline-block;
+      width: 47%;
+      vertical-align: top;
+     margin-top: 3%;
+      float: left;
+    margin-left: 5%;
+    clear: right;
+    }
+
+      .pc3 {
+      position: relative;
+      display: inline-block;
+      width: 99%;
+      vertical-align: top;
+     margin-top: 3%;
+      float: left;
+    margin-left: 0.3%
+    }
+
+    .paragraph-title {
+      position: absolute;
+      background-color: lightblue;
+      padding: 5px 10px;
+      font-size: 175%;
+       top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+      border: 1px solid;
+    }
+
+       .paragraph-title2 {
+      position: absolute;
+      background-color: pink;
+      padding: 5px 10px;
+      font-size: 175%;
+        top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+         border: 1px solid;
+    }
+
+       .paragraph-title3 {
+      position: absolute;
+      background-color: aqua;
+      padding: 5px 10px;
+      font-size: 175%;
+        top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+         border: 1px solid;
+    }
+
+    .paragraph-content {
+      background-color: beige;
+      padding: 50px 10px 10px 10px;
+      border: 2px solid;
+      font-family: Arial, sans-serif;
+    }
+ }
+
+  @media screen and (max-width: 767px) {
+    h1 {
+      text-align: center;
+      font-size: 300%;
+      font-family: Arial, sans-serif;
+    }
+
+    .pc1 {
+      text-align: center;
+      position: relative;
+      display: inline-block;
+      width: 90%;
+      vertical-align: top;
+     margin-top: 3%;
+      float: left;
+    margin-left: 5%;
+    clear: left;
+    }
+
+       .pc2 {
+     text-align: center;
+      position: relative;
+      display: inline-block;
+      width: 90%;
+      vertical-align: top;
+     margin-top: 3%;
+      float: left;
+    margin-left: 5%;
+    clear: left;
+    }
+
+      .pc3 {
+     text-align: center;
+      position: relative;
+      display: inline-block;
+      width: 90%;
+      vertical-align: top;
+     margin-top: 3%;
+      float: left;
+    margin-left: 5%;
+    clear: left;
+    }
+
+    .paragraph-title {
+      position: absolute;
+      background-color: lightblue;
+      padding: 5px 10px;
+      font-size: 175%;
+       top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+      border: 1px solid;
+    }
+
+       .paragraph-title2 {
+      position: absolute;
+      background-color: pink;
+      padding: 5px 10px;
+      font-size: 175%;
+        top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+      border: 1px solid;
+    }
+
+       .paragraph-title3 {
+      position: absolute;
+      background-color: aqua;
+      padding: 5px 10px;
+      font-size: 175%;
+        top: -2%;
+      right: 0.5%;
+      font-family: Arial, sans-serif;
+      float: left;
+      border: 1px solid;
+    }
+
+    .paragraph-content {
+      background-color: beige;
+      padding: 50px 10px 10px 10px;
+      border: 2px solid;
+      font-family: Arial, sans-serif;
+    }
+ }
+    
